@@ -68,3 +68,7 @@ echo $PATH
 
 2> Run this command:- sdkmanager --licenses
 ```
+
+#### Android Virtual Devices
+1. bridge configuration isn’t available
+`adb -s <device name> tcp:8081 tcp:8081`
