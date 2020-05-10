@@ -35,3 +35,29 @@ cd android
 
 ### 파이썬 버전
 - 무조건 2만 가능
+
+
+## MAC OSX
+```bash
+brew install node
+brew install watchman
+sudo gem install cocoapods
+Xcode 설치
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+https://developer.android.com/studio 안드로이드 스튜디오 설치
+```
+- https://velog.io/@shortdary/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85-Mac-RN-CLI-QuickStart
+- https://dev-yakuza.github.io/ko/react-native/install-on-mac/
+
+### 환경 변수 
+```bash
+export ANDROID_HOME=자신의 안드로이드SDK 위치/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+source $HOME/.bash_profile
+echo $PATH
+```
