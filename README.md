@@ -72,3 +72,7 @@ echo $PATH
 #### Android Virtual Devices
 1. bridge configuration isn’t available
 `adb -s <device name> tcp:8081 tcp:8081`
+
+### 디바이스 연결
+- USB : https://aboutreact.com/how-to-run-react-native-app-on-real-device-android/
+- WIFI : https://aboutreact.com/run-app-on-real-device-using-wi-fi/ 
