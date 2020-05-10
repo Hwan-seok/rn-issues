@@ -61,3 +61,10 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 source $HOME/.bash_profile
 echo $PATH
 ```
+### 에러
+1. Please accept all necessary Android SDK licenses using Android SDK Manager
+```
+1> Navigate to Android studio:- ~/Library/Android/sdk/tools/bin
+
+2> Run this command:- sdkmanager --licenses
+```
