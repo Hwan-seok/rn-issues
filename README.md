@@ -76,3 +76,13 @@ echo $PATH
 ### 디바이스 연결
 - USB : https://aboutreact.com/how-to-run-react-native-app-on-real-device-android/
 - WIFI : https://aboutreact.com/run-app-on-real-device-using-wi-fi/ 
+
+### 패키지명 변경
+1. /android/app/src/main/AndroidManifest.xml
+
+2. 폴더구조 변경하기
+
+3. app/build.gradle
+
+4. /android/app/src/main/ 아래 있는 java 파일입니다.
+https://romeoh.tistory.com/entry/React-Native-%ED%8C%A8%ED%82%A4%EC%A7%80%EB%AA%85-%EB%B2%88%EB%93%A4%EB%AA%85-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0-Package-Bundle-Android-iOS
